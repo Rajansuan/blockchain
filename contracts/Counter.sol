@@ -23,6 +23,5 @@ contract Counter {
         count = count + 1; //will get count value from the blockchain
     }
 
-
 }
 
