@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract MyContract{
+contract MyContract {
     //State Variables
     uint public counter = 7; //this stored to blockchain, and we can update it but have to pay
 
@@ -25,15 +25,31 @@ contract MyContract{
         string myString;
     }
 
-    Structure public myStruck = Structure(1,"Hello, Struct!!");
+    Structure public myStruck = Structure(1, "Hello, Struct!!");
 
-
-    //have to write pure as it does not mutate state variable , just fetches the data 
-    function getValue() public pure returns(uint){
+    //have to write pure as it does not mutate state variable , just fetches the data
+    function getValue() public pure returns (uint) {
         uint value = 7;
         return value;
     }
 
-    
-}
+    //Arrays
+    uint[] public uintArray = [1, 2, 41];
 
+    string[] public stringArray = ["Rajan", "Suan"];
+
+    string[] public myArray;
+
+    //memory keyword is used here because we need the "value" for temporary period
+    //once the "value" string is added to myArray, then we can just remove it and its copy is stored on blockchain
+    function addString(string memory value) public {
+        // value is temporary
+        myArray.push(value); // we store a copy of value in myArray which is stored permanently on blockchain
+    }
+    function arrayCount() public view returns (uint) {
+        return myArray.length;
+    }
+
+    //2D Array - Arrays of an array
+    uint256[][] public my2DArray = [[1,2,3],[5,6,7]];
+}
