@@ -51,5 +51,5 @@ contract MyContract {
     }
 
     //2D Array - Arrays of an array
-    uint256[][] public my2DArray = [[1,2,3],[5,6,7]];
+    uint256[][] public my2DArray = [[1, 2, 3], [5, 6, 7]];
 }
