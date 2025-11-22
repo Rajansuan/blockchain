@@ -28,6 +28,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "secretVaultAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -43,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/9_Inheritance_Factories_Interaction.sol": "Inheritance"
+			"contracts/10_Secret_Vault_Factory.sol": "Inheritance"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/9_Inheritance_Factories_Interaction.sol": {
-			"keccak256": "0xd61c0d53a54d4653e6f66a719d5309e3ba82abdd5f4cd3a1131773176b5b0e5e",
+		"contracts/10_Secret_Vault_Factory.sol": {
+			"keccak256": "0x07ba69cda67def09f28fe78cfad3cd19d9afeb16a359f7afe4dd22e53c9fb17e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0adc18dc6de586b29918bd448f4a8925d95a9176194981547dedfb49f169b136",
-				"dweb:/ipfs/QmNkqCMDBmhQ3mQajLsZtRpwpVb1dFTf8EM3NmJSHg5kr7"
+				"bzz-raw://914b7228d0e81c31207fa03299ed08766fed2a20e7e269ab2fe0f99f7b0c3623",
+				"dweb:/ipfs/QmYR1asdGYsnvaJZw3Bpf1RX5yJi1z7rjRt1hBuD6spMxQ"
 			]
 		}
 	},
