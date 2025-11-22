@@ -1,6 +1,8 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+//A smart contract is a piece of code that runs automatically on the blockchain when someone calls it
+
 contract MyContract {
     //State Variables
     uint public counter = 7; //this stored to blockchain, and we can update it but have to pay

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getSecret",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_Inheritance_Factories_Interaction.sol": "Inheritance"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_Inheritance_Factories_Interaction.sol": {
+			"keccak256": "0xd61c0d53a54d4653e6f66a719d5309e3ba82abdd5f4cd3a1131773176b5b0e5e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0adc18dc6de586b29918bd448f4a8925d95a9176194981547dedfb49f169b136",
+				"dweb:/ipfs/QmNkqCMDBmhQ3mQajLsZtRpwpVb1dFTf8EM3NmJSHg5kr7"
+			]
+		}
+	},
+	"version": 1
+}
